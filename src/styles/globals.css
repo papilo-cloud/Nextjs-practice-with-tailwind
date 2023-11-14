@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,26 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+/* bg-gradient-to-tr from-[#59F8E8] from-30% via-[#20A4F3] via-21% via-[#20A4F3] via-10% to-[#20A4F3] to-90%
+              bg-gradient-to-t from-[#20A4F3] from-0% via-[#20A4F3] via-2% to-[#59F8E8] to-2% */
+.css-flex1-text{
+  background-image: linear-gradient(to top right, #20A4F3,rgba(32, 164, 243, 0.01), rgba(32, 164, 243, 0.21), #59F8E8)
+  /* linear-gradient(to top,#20A4F3 0%, #38C7EE 2%, #59F8E8 2% ) ; */;
+  /* color: rgba(89, 248, 232,0.02), rgba(59, 198, 237,0) */
+}
+.css-gradient{
+  position: relative;
+  background-image: linear-gradient(to top,rgba(32, 164, 243, 0),  rgba(56, 199, 238,0.02), rgba(89, 248, 232,0.02) );
+  /* background */
+}
+.css-h2{
+  display: inline-block;
+  background-image: linear-gradient(to right, #20A4F3, #59F8E8);
+  background-clip: text;
+  color:  transparent;
+}
+.css-flex2{
+  position: relative;
+  background-image: linear-gradient( #0F1212 0%, rgba(32, 166, 243,0.1) 100%);
 }
