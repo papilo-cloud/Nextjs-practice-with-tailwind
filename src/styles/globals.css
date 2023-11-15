@@ -27,6 +27,9 @@ body {
 } */
 /* bg-gradient-to-tr from-[#59F8E8] from-30% via-[#20A4F3] via-21% via-[#20A4F3] via-10% to-[#20A4F3] to-90%
               bg-gradient-to-t from-[#20A4F3] from-0% via-[#20A4F3] via-2% to-[#59F8E8] to-2% */
+body{
+  font-family: sans-serif;
+}
 .css-flex1-text{
   background-image: linear-gradient(to top right, #20A4F3,rgba(32, 164, 243, 0.1), rgba(32, 164, 243, 0.21), #59F8E8)
 }
@@ -55,4 +58,7 @@ body {
 }
 .css-presale-box{
   background-image: linear-gradient(to top left,rgba(32, 164, 243, 0.05) 10%,  #0F1212 40%, 60%, rgba(89, 248, 232,0.05) 80%);
+}
+.css-presale-bo{
+  color: #20a6f34d, #59f8e84d
 }

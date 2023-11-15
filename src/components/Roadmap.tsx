@@ -9,7 +9,7 @@ import datas from '@/data/data.json'
 export const Roadmap = () => {
   return (
     <div className="roadmap relative flex w-full m-0 p-0 h-[1885px] mb-[120px]">
-          <h2 className='text-white absolute top-[32px] text-[48px] font-semibold'>Roadmap</h2>
+          <h2 className='text-white absolute top-[32px] text-[3em] font-semibold'>Roadmap</h2>
           <div className="fle1 mt-[130px] w-[613px] flex flex-col gap-[60px]">
             {datas[0].map((data, id) => 
                 <div className="flex1-cont flex items-center" key={id}>
