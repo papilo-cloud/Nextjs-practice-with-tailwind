@@ -1,4 +1,5 @@
 // import { Inter } from 'next/font/google'
+import { Presales } from "@/components/Presales";
 import { Roadmap } from "@/components/Roadmap";
 import Link from "next/link";
 
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="w-full bg-[#0F1212]">
       <div className="container m-auto w-[1296px]">
         <Roadmap />
+        <Presales />
       </div>
     </main>
   )

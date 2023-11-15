@@ -28,9 +28,7 @@ body {
 /* bg-gradient-to-tr from-[#59F8E8] from-30% via-[#20A4F3] via-21% via-[#20A4F3] via-10% to-[#20A4F3] to-90%
               bg-gradient-to-t from-[#20A4F3] from-0% via-[#20A4F3] via-2% to-[#59F8E8] to-2% */
 .css-flex1-text{
-  background-image: linear-gradient(to top right, #20A4F3,rgba(32, 164, 243, 0.01), rgba(32, 164, 243, 0.21), #59F8E8)
-  /* linear-gradient(to top,#20A4F3 0%, #38C7EE 2%, #59F8E8 2% ) ; */;
-  /* color: rgba(89, 248, 232,0.02), rgba(59, 198, 237,0) */
+  background-image: linear-gradient(to top right, #20A4F3,rgba(32, 164, 243, 0.1), rgba(32, 164, 243, 0.21), #59F8E8)
 }
 .css-gradient{
   position: relative;
@@ -46,4 +44,15 @@ body {
 .css-flex2{
   position: relative;
   background-image: linear-gradient( #0F1212 0%, rgba(32, 166, 243,0.1) 100%);
+}
+
+.css-presales{
+  background-image: linear-gradient(to top right,rgba(32, 164, 243, 0.05) 10%,  #0F1212 30%, 80%, rgba(89, 248, 232,0.05) 90%);
+}
+.css-presale{
+  background-image: linear-gradient(to top left, rgba(32, 164, 243, 0.0) 30%,#20A4F3 40%, 80%, #59F8E8 90%)
+
+}
+.css-presale-box{
+  background-image: linear-gradient(to top left,rgba(32, 164, 243, 0.05) 10%,  #0F1212 40%, 60%, rgba(89, 248, 232,0.05) 80%);
 }

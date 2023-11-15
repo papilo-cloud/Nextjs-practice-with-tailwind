@@ -8,11 +8,11 @@ import datas from '@/data/data.json'
 
 export const Roadmap = () => {
   return (
-    <div className="roadmap relative flex w-full m-0 p-0 h-[1885px]">
+    <div className="roadmap relative flex w-full m-0 p-0 h-[1885px] mb-[120px]">
           <h2 className='text-white absolute top-[32px] text-[48px] font-semibold'>Roadmap</h2>
-          <div className="fle1 mt-[130px] w-[613px]">
+          <div className="fle1 mt-[130px] w-[613px] flex flex-col gap-[60px]">
             {datas[0].map((data, id) => 
-                <div className="flex1-cont flex items-center mt-10" key={id}>
+                <div className="flex1-cont flex items-center" key={id}>
                     <div className="css-flex1-text relative rounded-xl p-[1px] w-[528px]">
                             <div className='css-gradient p-[32px] bg-[#0F1212] rounded-xl'>
                             <h4 className='css-h2 text-[24px] leading-10 font-semibold'>{data.title}</h4>
@@ -32,13 +32,13 @@ export const Roadmap = () => {
 
           <div className="css-flex2 relative w-[70px] bg-[#0F1212] h-full">
             {/* <div className="relative h-[70px] w-[70px]"> */}
-              <Image src={Gropp23} alt='arrow-down' className='absolute bottom-0' />
+              <Image src={Gropp23} alt='arrow-down' className='absolute bottom-0' width={90} height={93} />
             {/* </div> */}
           </div>
 
-          <div className="fle1 mt-[257px] w-[613px]">
+          <div className="fle1 mt-[250px] w-[613px] flex flex-col gap-[60px]">
             {datas[1].map((data, id) => 
-                <div className="flex1-cont flex-row-reverse flex items-center mt-10" key={id}>
+                <div className="flex1-cont flex-row-reverse flex items-center" key={id}>
                 <div className="css-flex1-text relative rounded-xl p-[1px] w-[528px] ">
                     <div className='css-gradient p-[32px] bg-[#0F1212] rounded-xl'>
                     <h4 className='css-h2 text-[24px] leading-10 font-semibold'>{data.title}</h4>
