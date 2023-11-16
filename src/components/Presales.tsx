@@ -8,7 +8,7 @@ export const Presales = () => {
                 <div className="pl-2">
                     <h2 className='text-[2.5em] text-white leading-[48px] font-semibold mb-3 '>Discover <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#20A4F3] to-[#59F8E8] ' >Streal Presales:</span> </h2>
                     <h4 className='text-[2.5em] text-[#f9f9f9] leading-[48px] font-medium opacity-80 ' >Your Pathway to Future Investments</h4>
-                    <div className=" text-[1em] text-[#C1CFDA] leading-[27.2px] font-small opacity-80">
+                    <div className=" text-base text-[#C1CFDA] leading-[27.2px] font-normal opacity-80">
                         <p className='leading-[27.2px] mt-6'>Do not miss the thrilling opportunity to 
                             become a part of our project right from its 
                             inception. Streal's presale program is divided into 
@@ -25,11 +25,33 @@ export const Presales = () => {
             </div>
             <div className="css-presale p-[1px] relative w-[408px] h-[511px] rounded-[16px]">
                 <div className="relative css-presale-box w-full h-full bg-[#0F1212] rounded-[16px] p-[31px] over-flow-hidden">
-                    <div className="absolute top-0 right-0 w-[116px] h-[57px] rounded-tr-[16px] rounded-bl-[7px] flex justify-center items-center bg-gradient-to-r from-[#20a6f941] from-30% to-[#59f8f949] to-100%">
+                    <div className="absolute top-0 right-0 w-[116px] h-[57px] rounded-tr-[16px] rounded-bl-[7px] flex justify-center items-center bg-gradient-to-r from-[#20a6f941] from-30% to-[#59f8f944] to-80%">
                         <p className='text-[16px] font-semibold text-center text-white opacity-100'>Phase 1</p>
                     </div>
                     <div className="m-0 p-0">
-                        <p>Presale ends in:</p>
+                        <p className='text-[#f9f9f9] text-xl font-medium mt-4 '>Presale ends in:</p>
+                        <div className="w-[344px] h-[80px] relative flex justify-between mt-[26px] leading-none">
+                            <div className='rounded bg-gradient-to-r from-[#20a6f921] from-50% to-[#59f8f924] to-100% w-[80px] h-[80px] text-[#f9f9f9] flex flex-col justify-center items-center '>
+                                <p className='font-semibold text-[32px] '>120</p>
+                                <p className=' font-normal opacity-80 text-sm '>days</p>
+                            </div>
+                            <div className='rounded bg-gradient-to-r from-[#20a6f921] from-50% to-[#59f8f924] to-100% w-[80px] h-[80px] text-[#f9f9f9] flex flex-col justify-center items-center '>
+                                <p className='font-semibold text-[32px] '>23</p>
+                                <p className=' font-normal opacity-80 text-sm '>hours</p>
+                            </div>
+                            <div className='rounded bg-gradient-to-r from-[#20a6f921] from-50% to-[#59f8f924] to-100% w-[80px] h-[80px] text-[#f9f9f9] flex flex-col justify-center items-center '>
+                                <p className='font-semibold text-[32px] '>18</p>
+                                <p className=' font-normal opacity-80 text-sm '>minutes</p>
+                            </div>
+                            <div className='rounded bg-gradient-to-r from-[#20a6f921] from-50% to-[#59f8f924] to-100% w-[80px] h-[80px] text-[#f9f9f9] flex flex-col justify-center items-center '>
+                                <p className='font-semibold text-[32px] '>47</p>
+                                <p className=' font-normal opacity-80 text-sm '>seconds</p>
+                            </div>
+                        </div>
+                        <div className="">
+                            <p className='font-medium text-base text-[#f5f5f5aa] '>Presale supply: <span className='text-[#fff]'>80,000,000</span></p>
+                            <p className='font-medium text-base text-[#f5f5f5aa] '>Presale price:  <span className='line-through'>5 USDT</span> <span className='text-[#fff]'>3 USDT</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
