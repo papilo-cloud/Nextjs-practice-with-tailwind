@@ -30,7 +30,7 @@ export const Presales = () => {
                     </div>
                     <div className="m-0 p-0">
                         <p className='text-[#f9f9f9] text-xl font-medium mt-4 '>Presale ends in:</p>
-                        <div className="w-[344px] h-[80px] relative flex justify-between mt-[26px] leading-none">
+                        <div className="w-[344px] h-[80px] relative flex justify-between mt-[12px] leading-none">
                             <div className='rounded bg-gradient-to-r from-[#20a6f921] from-50% to-[#59f8f924] to-100% w-[80px] h-[80px] text-[#f9f9f9] flex flex-col justify-center items-center '>
                                 <p className='font-semibold text-[32px] '>120</p>
                                 <p className=' font-normal opacity-80 text-sm '>days</p>
@@ -48,9 +48,17 @@ export const Presales = () => {
                                 <p className=' font-normal opacity-80 text-sm '>seconds</p>
                             </div>
                         </div>
-                        <div className="">
-                            <p className='font-medium text-base text-[#f5f5f5aa] '>Presale supply: <span className='text-[#fff]'>80,000,000</span></p>
-                            <p className='font-medium text-base text-[#f5f5f5aa] '>Presale price:  <span className='line-through'>5 USDT</span> <span className='text-[#fff]'>3 USDT</span></p>
+                        <div className="my-[19px]  ">
+                            <p className='font-medium text-base text-[#f5f5f5aa] leading-[30px]'>Presale supply: <span className='text-[#fff]'>80,000,000</span></p>
+                            <p className='font-medium text-base text-[#f5f5f5aa] leading-[44px]'>Presale price:  <span className='line-through'>5 USDT</span> <span className='text-[#fff]'>3 USDT</span></p>
+                        </div>
+                        <div className='box-border'>
+                            <p className='font-medium text-sm text-[#f5f5f5aa]'>How much streal do you want to buy?:</p>
+                            <form className='w-full h-full box-border flex flex-col items-center gap-5'>
+                                <div className='w-full h-[48px] rounded border-[1px] border-[#59f8e84d]  '><input className='w-full h-full px-3 outline-0 text-[#f5f5f5aa] font-medium text-base rounded bg-[#59f8e80a]' type="text" placeholder='52,000 Streal' /></div>
+                                <div className='w-full h-[48px] rounded border-[1px] border-[#59f8e84d]  '><input className='w-full h-full px-3 outline-0 text-[#f5f5f5aa] font-medium text-base rounded bg-[#59f8e80a]' type="text" placeholder='17,333.33 USDT' /></div>
+                                <button type='submit' className='w-[154px] h-[45px] rounded bg-gradient-to-r from-[#20A4F3] from-50% to-[#59F8E8] font-semibold'>Buy Streal Token</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -59,3 +67,4 @@ export const Presales = () => {
     </section>
   )
 }
+ 
